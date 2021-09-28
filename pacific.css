@@ -1,0 +1,152 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+
+}
+
+/*Set the body of the page with the gradiant look, and text aspects of the page*/
+body {
+	background-color: #00569f;
+	background-image:url("ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+
+}
+
+#wrapper{
+	background-color: white;
+	position: relative;
+	display: block;
+	text-align: left;
+	margin: auto;
+	min-width: 600px;
+	height: 700px;
+	width: 80%;
+}
+
+#content {
+
+position: relative;
+display: inline;
+
+}
+
+/*Positioning the image*/
+#content img[src="coast.jpg"]{
+
+ float: left;
+ left: 15px;
+ margin-right: 20px;
+
+}
+
+
+/*Content on the page, bullets are marker*/
+#content li{
+
+color: black;
+list-style-image: url("marker.gif") ;
+list-style-position: inside;
+
+}
+
+#content p{
+
+color: black;
+position: relative;
+margin: 20px;
+
+}
+
+/*Nav bar is edited her throughout, size, color, font, positioning*/
+nav{
+
+	height: 100%;
+    background-color: #3399CC;
+    float: left;
+	margin-right: 25px;
+    width: 190px;
+	height: 663px;
+
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: 900;
+	color: rgb(5, 5, 59);
+}
+nav ul {
+
+	font-size: 1.2em;
+	margin-left: -25px;
+	list-style: none;
+	
+}
+nav a:visited {
+
+	font-weight: 900;
+	color: rgb(5, 5, 59);
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/*The headers are edited here, sunset pic is set as the background at the top of the page. Color, size, font are edited here*/
+h1 {
+	background: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #000033;
+	background-blend-mode: lighten;
+	margin-bottom: 0;
+	padding: 0px;
+	margin-top: 0px;
+	color: #FFFFFF;
+}
+h2 {
+	color: #3399CC;
+	font-weight: bold;
+	position: relative;
+    left: 15px;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+	color:black;
+	
+}
+
+
+#contact span{
+
+	font-weight: bold;
+	color: #3399CC;
+
+}
+
+#content span{
+
+   font-weight: bold;
+   color: #3399CC;
+
+}
+
+dt {
+	color: #000033;
+}
+
+/*Footer is italic and in smaller text*/
+footer {
+	color: black;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 13px;
+	padding-left: 20px;
+	
+}
+
